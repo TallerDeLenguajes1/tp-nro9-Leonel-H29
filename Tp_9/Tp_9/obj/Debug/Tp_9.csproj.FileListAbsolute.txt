@@ -1,0 +1,7 @@
+C:\Users\Aldo Herrera\Desktop\Taller\TP9\tp-nro9-Leonel-H29\Tp_9\Tp_9\bin\Debug\Tp_9.exe.config
+C:\Users\Aldo Herrera\Desktop\Taller\TP9\tp-nro9-Leonel-H29\Tp_9\Tp_9\bin\Debug\Tp_9.exe
+C:\Users\Aldo Herrera\Desktop\Taller\TP9\tp-nro9-Leonel-H29\Tp_9\Tp_9\bin\Debug\Tp_9.pdb
+C:\Users\Aldo Herrera\Desktop\Taller\TP9\tp-nro9-Leonel-H29\Tp_9\Tp_9\obj\Debug\Tp_9.csprojAssemblyReference.cache
+C:\Users\Aldo Herrera\Desktop\Taller\TP9\tp-nro9-Leonel-H29\Tp_9\Tp_9\obj\Debug\Tp_9.csproj.CoreCompileInputs.cache
+C:\Users\Aldo Herrera\Desktop\Taller\TP9\tp-nro9-Leonel-H29\Tp_9\Tp_9\obj\Debug\Tp_9.exe
+C:\Users\Aldo Herrera\Desktop\Taller\TP9\tp-nro9-Leonel-H29\Tp_9\Tp_9\obj\Debug\Tp_9.pdb
