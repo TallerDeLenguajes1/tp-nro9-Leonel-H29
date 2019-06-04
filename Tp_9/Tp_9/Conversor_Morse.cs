@@ -265,7 +265,7 @@ namespace Helpers
 
         public static string CrearArchivoMorse()
         {
-            Console.WriteLine("Escriba el texto que desea convertir a morse");
+            Console.WriteLine("**Escriba el texto que desea convertir a morse: ");
             string texto = Console.ReadLine();
 
             string cadena_morse = Conversor_Morse.TextoAMorse(texto);
@@ -311,7 +311,7 @@ namespace Helpers
             }
             catch (Exception ex)
             {
-                Console.WriteLine("error: {0}", ex);
+                Console.WriteLine("Error: {0}", ex);
                 throw;
             }
 
@@ -338,11 +338,11 @@ namespace Helpers
             try
             {
                 File.WriteAllText(rutaArchivo, texto_a_escribir);
-                Console.WriteLine("Archivo de texto creado exitosamente en {0}", rutaArchivo);
+                Console.WriteLine("--Archivo de texto creado exitosamente en: {0}", rutaArchivo);
             }
             catch (Exception ex)
             {
-                Console.WriteLine("error: {0}", ex);
+                Console.WriteLine("Error: {0}", ex);
                 throw;
             }
         }
@@ -373,7 +373,7 @@ namespace Helpers
             }
             catch (Exception ex)
             {
-                Console.WriteLine("error: {0}", ex);
+                Console.WriteLine("Error: {0}", ex);
                 throw;
             }
 
@@ -397,34 +397,16 @@ namespace Helpers
                 if (caracter == '.')
                 {
                     Lista_aux.AddRange(audio_punto);
-                    //Destino.Write(audio_punto, 0, audio_punto.Length);
                 }
                 else if (caracter == '-')
                 {
                     Lista_aux.AddRange(audio_raya);
-                    //Destino.Write(audio_raya, 0, audio_raya.Length);
                 }
-                else if (caracter == ' ')
-                {
-                    for (int i = 0; i < 3; i++)
-                    {
-                        Lista_aux.AddRange(audio_silencio);
-                    }
-                }
-                else if (caracter == '/')
-                {
-                    for (int i = 0; i < 7; i++)
-                    {
-                        Lista_aux.AddRange(audio_silencio);
-                    }
-                }
-
-                Lista_aux.AddRange(audio_silencio);
             }
             Destino.Write(Lista_aux.ToArray(), 0, Lista_aux.Count);
             Destino.Close();
 
-            Console.WriteLine("Archivo de audio creado exitosamente en {0}", ruta_audio_morse);
+            Console.WriteLine("--Archivo de audio creado exitosamente en:  {0}", ruta_audio_morse);
         }
 
         public static byte[] LectorCompletoDeBinario(Stream stream)
